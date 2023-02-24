@@ -4,39 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shantell+Sans:wght@400;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
     <title>Exercício 1 - Frontend</title>
 </head>
 <body>
     <header>
-        <h1>Atendimento on-line</h1> 
+        <h2 class="title">Atendimento on-line</h2> 
     </header>
 
     <main>
-        <div>
+        <div class="user1-message">
             <div>Atendente diz:</div>
-            <div>Blabla blabla blabla</div>
+            <div class="message-item">Blabla blabla blabla</div>
         </div>
 
-        <div>
+        <div class="user1-message">
             <div>Atendente diz:</div>
-            <div>Blabla blabla blabla</div>
+            <div class="message-item">Blabla blabla blabla</div>
         </div>
 
-        <div>
-            <div>Você diz:</div>
-            <div>Blabla blabla blabla</div>
+        <div class="user2-message">
+            <div class="user2-message-wrapper">
+                <div>Você diz:</div>
+                <div class="message-item">Blabla blabla blabla</div>
+            </div>
         </div>
 
-        <div>
-            <div>Você diz:</div>
-            <div>Blabla blabla blabla</div>
+        <div class="user2-message">
+            <div class="user2-message-wrapper">
+                <div>Você diz:</div>
+                <div class="message-item">Blabla blabla blabla</div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <div>Digite sua mensagem</div>
-        <button>ENVIAR</button>
+        <div class="textbox">Digite sua mensagem...</div>
+        <button class="send-button">ENVIAR</button>
     </footer>
 </body>
 </html>

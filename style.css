@@ -1,0 +1,99 @@
+*, :root {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+}
+
+header {
+    font-family: 'Shantell Sans', cursive;
+    min-width: 85%;
+    min-height: 5%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Shantell Sans', cursive;
+    min-width: 85%;
+    min-height: 20%;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    bottom: 0;    
+}
+
+main {
+    min-height: 60vh;
+    max-height: 60vh;
+    min-width: 85%;
+
+    padding: 10px;
+    border: 1px solid #000;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+
+.textbox {
+    border: 1px solid #000;
+    width: 75%;
+    height: 8vh;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.send-button {
+    height: 8vh;
+    width: 23%;
+
+    font-family: 'Shantell Sans', cursive;
+    font-size: larger;
+    color: rgb(4, 112, 37);
+    border: 1px solid #000;
+}
+
+.user1-message {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.user2-message {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.message-item {
+    border: 1px solid #000;
+    min-width: 30vw;
+    max-width: 30vw;
+    padding: 10px;
+}
+
+.user2-message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(51, 51, 241);
+}
