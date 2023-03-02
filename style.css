@@ -27,6 +27,8 @@ footer {
     min-width: 85%;
     min-height: 20%;
 
+    padding: 10px;
+
     display: flex;
     justify-content: space-between;
 
@@ -57,6 +59,7 @@ main {
     font-family: 'Shantell Sans', cursive;
     display: flex;
     align-items: center;
+    padding-left: 1%;
 }
 
 .send-button {
@@ -64,7 +67,7 @@ main {
     width: 23%;
 
     font-family: 'Shantell Sans', cursive;
-    font-size: larger;
+    font-size: 1em;
     color: rgb(4, 112, 37);
     border: 1px solid #000;
 }
