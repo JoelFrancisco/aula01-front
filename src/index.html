@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script defer src="main.mjs"></script>
+
     <title>Exercício 1 - Frontend</title>
 </head>
 <body>
@@ -28,25 +30,13 @@
             <div>Atendente diz:</div>
             <div class="message-item">Blabla blabla blabla</div>
         </div>
-
-        <div class="user2-message">
-            <div class="user2-message-wrapper">
-                <div>Você diz:</div>
-                <div class="message-item">Blabla blabla blabla</div>
-            </div>
-        </div>
-
-        <div class="user2-message">
-            <div class="user2-message-wrapper">
-                <div>Você diz:</div>
-                <div class="message-item">Blabla blabla blabla</div>
-            </div>
-        </div>
     </main>
 
     <footer>
-        <div class="textbox">Digite sua mensagem...</div>
-        <button class="send-button">ENVIAR</button>
+        <form action="index.html" method="post">
+            <input placeholder="Digite sua mensagem..." class="textbox" />
+            <button class="send-button" type="submit">ENVIAR</button>
+        </form>
     </footer>
 </body>
 </html>

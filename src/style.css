@@ -29,9 +29,6 @@ footer {
 
     padding: 10px;
 
-    display: flex;
-    justify-content: space-between;
-
     position: -webkit-sticky;
     position: sticky;
     left: 0;
@@ -49,7 +46,16 @@ main {
     display: flex;
     flex-direction: column;
 
-    justify-content: space-around;
+    justify-content:flex-start;
+    gap: 10px;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .textbox {
